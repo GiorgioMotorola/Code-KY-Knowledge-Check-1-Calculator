@@ -38,7 +38,7 @@ switch (input)
             Console.WriteLine("One or more of the numbers is not an int");
         }
         break;
-
+        // added case 3 which works the multiply function 
     case "3":
         Console.WriteLine("Enter 2 integers to multiply");
         var multiplyNumber1 = Console.ReadLine();
